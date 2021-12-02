@@ -1,0 +1,42 @@
+.App-logo {
+  height: 140px;
+}
+
+.App-header {
+  display: flex;
+  float: left;
+  padding: 70px;
+}
+
+.App-text{
+  display: flex;
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  padding: 150px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.Get-started-button{
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 460px;
+  left: 230px;
+  padding: 8px 55px;
+  border-radius: 50px;
+  border: none;
+  background-color: #FD416E;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.Girl-image {
+  position: absolute;
+  right: 80px;
+  bottom: 0px;
+  height: 450px;
+}
