@@ -82,6 +82,7 @@
   background-color: #FD416E;
   border: none;
   border-radius: 55px;
+  cursor: pointer;
 }
 
 .Signup-Google {
@@ -104,6 +105,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  cursor: pointer;
 }
 
 .Google-Icon {
