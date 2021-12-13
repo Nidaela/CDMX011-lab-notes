@@ -1,5 +1,6 @@
 .Signup-logo {
-  height: 140px;
+  height: 180px;
+  margin-top: 35px;
 }
   
 .Signup-header {
@@ -12,9 +13,9 @@
   display: flex;
   position: absolute;  
   float: left;
-  left: 100px;
+  left: 120px;
   bottom: 0px;
-  height: 350px;
+  height: 480px;
 }
 
 .Black-Background {
@@ -35,8 +36,8 @@
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
-  height: 65%;
-  width: 60%;
+  height: 62%;
+  width: 63%;
   background-color: white;
   border-radius: 35px;
   justify-content: center;
@@ -45,12 +46,12 @@
 .Signup-Text {
   position: absolute;
   display: flex;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: bold;
 }
 
 .Form {
-  margin-top: 120px;
+  margin-top: 150px;
   height: fit-content;
   width: 75%;
   display: flex;
@@ -59,25 +60,33 @@
   align-items: center;
 }
 
+::placeholder {
+  font-size: 20px;
+}
+
 #email {
-  height: 12px;
-  width: 200px;
+  height: 22px;
+  width: 250px;
   padding: 12px 20px;
 }
 
 #password {
-  height: 12px;
-  width: 200px;
+  height: 22px;
+  width: 250px;
   padding: 12px 20px;
   margin-top: 15px;
  }
 
 .Continue-with-email {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  text-decoration: none;
   color: white;
-  height: 35px;
-  width: 244px;
+  height: 45px;
+  width: 293px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 25px;
   background-color: #FD416E;
   border: none;
@@ -86,28 +95,25 @@
 }
 
 .Signup-Google {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
-  margin-top: 35px;
+  margin-top: 55px;
 }
 
 .Continue-with-Google {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 22px;
+  text-decoration: none;
   color: white;
-  height: 35px;
-  width: 244px;
+  height: 45px;
+  width: 293px;
   margin-top: 25px;
   background-color: #FD416E;
   border: none;
   border-radius: 55px;
   margin-top: 5px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
-}
-
-.Google-Icon {
-  height: 20px;
 }

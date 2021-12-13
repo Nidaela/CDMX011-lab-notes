@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.png';
 import boyImage from './boyImage.png';
-//import googleIcon from './googleIcon.png';
 import './Signup.css';
 
 export default function Signup() {
